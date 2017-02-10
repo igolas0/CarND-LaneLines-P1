@@ -9,20 +9,18 @@ The goals / steps of this project are the following:
 * Make a pipeline that finds lane lines on the road
 
 [//]: # (Image References)
-
+[image1]: ./examples/grayscale.jpg "Grayscale"
 
 
 ---
 
 ### Reflection
 
-###1. Describe your pipeline. As part of the description, explain how you modified the draw_lines() function.
+###1. Description of the pipeline.
 
 My pipeline consisted of 5 steps: 
 
 1.) First, the images were converted to gray scale and a Gaussian smoothing function was applied on the image.
-
-[image1]: ./examples/grayscale.jpg "Grayscale"
 
 2.) After that the pipeline runs openCV's Canny function on the resulting images, which
 
@@ -48,9 +46,6 @@ a global variable is accessed which contains the lines stored in the previous it
 
 
 
-If you'd like to include images to show how the pipeline works, here is how to include an image: 
-
-![alt text][image1]
 
 
 ###2. Identify potential shortcomings with your current pipeline
