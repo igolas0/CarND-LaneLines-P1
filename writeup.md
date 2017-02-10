@@ -68,8 +68,11 @@ work when the lighting is low (like at night).
 
 
 ###3. Suggest possible improvements to your pipeline
+For better detecting the line at difficult lighting conditions I wanted to test working with different color spaces, like splitting the image into RGB channels instead of grayscale and then applying the Canny algorithm on it. I think this should
+work better, but I thought I had spent enough time on P1 and would rather spend my extra time on the other projects.
+In project nr.4 we are getting anyways new tools for advanced lane mark detection.
 
-A possible improvement would be to average the detected lines over several video frames or dampening the jittering in some way.
+Another possible improvement would be to average the detected lines over several video frames or dampening the jittering in some way.
 
 Like for example keeping track of the jittering/change of the line slope and filtering out unrealistic big changes from one
 
